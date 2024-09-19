@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, FlatList } from "react-native"
 import exercises from "../../assets/data/exercises.json"
 import ExerciceListItem from "../components/ExerciceListItem"
 
-
 export default function App() {
   return (
     <View style={styles.container}>
@@ -24,6 +23,5 @@ const styles = StyleSheet.create({
     backgroundColor: "ghostwhite", // https://reactnative.dev/docs/colors
     justifyContent: "center",
     padding: 10,
-   
   },
 })
